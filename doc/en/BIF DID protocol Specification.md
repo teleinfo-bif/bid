@@ -14,7 +14,7 @@ Version 1.0.0
 
 ## Status of This Document
 
-​           This document is currently version 1.0 and may be replaced by an updated version when it is released. You Can be in making (https://github.com/teleinfo-bif/document) address to obtain the latest edition of this technical report.
+​           This document is currently version 1.0 and may be replaced by an updated version when it is released. You Can be in making ([https://github.com/teleinfo-bif/bid/blob/master/doc/en/BIF%20DID%20protocol%20Specification.md](https://github.com/teleinfo-bif/bid/blob/master/doc/en/BIF DID protocol Specification.md)) address to obtain the latest edition of this technical report.
 
 ## 1. BID method name space
 
