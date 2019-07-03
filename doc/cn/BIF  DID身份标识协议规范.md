@@ -18,23 +18,23 @@ DDO）。
 文档状态
 --------
 
-​          本文档当前为1.0版本，在文档正式发布时，可能会由其他更新的版本替代。可以在GitHub（[[https://github.com/teleinfo-bif/document]{.underline}](https://github.com/teleinfo-bif/document)）地址中获取本技术报告的最新版本。
+​          本文档当前为1.0版本，在文档正式发布时，可能会由其他更新的版本替代。可以在[GitHub](https://github.com/teleinfo-bif/bid/blob/master/doc/cn/BIF%20%20DID%E8%BA%AB%E4%BB%BD%E6%A0%87%E8%AF%86%E5%8D%8F%E8%AE%AE%E8%A7%84%E8%8C%83.md)([https://github.com/teleinfo-bif/bid/blob/master/doc/cn/BIF%20%20DID%E8%BA%AB%E4%BB%BD%E6%A0%87%E8%AF%86%E5%8D%8F%E8%AE%AE%E8%A7%84%E8%8C%83.md](https://github.com/teleinfo-bif/bid/blob/master/doc/cn/BIF  DID身份标识协议规范.md))地址中获取本技术报告的最新版本。
 
-1. BID命名空间
+## 1. BID命名空间
+
 -----------
 
-1. 标识此DID方法的method name 是： bid
+标识此DID方法的method name 是： bid
 
-2. 使用此方法的DID必须以下前缀开头：did:bid。根据DID规范，此字符串必须为小写。
-3. 在前缀之后的DID的剩余部分是由下面特定算法生成。
+使用此方法的DID必须以下前缀开头：did:bid。根据DID规范，此字符串必须为小写。
 
-2. 适用系统
---------
+在前缀之后的DID的剩余部分是由下面特定算法生成。
 
-这种DID方法适用于BIF网络，从BIF发布开始正式使用。
+## 2. 适用系统
 
-3. BID标识符
----------
+   这种DID方法适用于BIF网络，从BIF发布开始正式使用。
+
+## 3. BID标识符
 
 BID方案由以下ABNF定义：
 
@@ -55,7 +55,8 @@ did:bid:DaogpsaKqKMe4nzPy4Aq
 
 
 
-4. BID DDO规范
+## 4. BID DDO规范
+
 -----------
 
 BID对应的身份描述对象DDO存储在BIF区块链，由DDO的控制人写入到区块链，并向所有用户开放读取。
@@ -109,7 +110,8 @@ DDO规范包含如下信息：
 
 
 
-5.  BID 方法
+## 5. BID 方法
+
 --------
 
 BIdContract是在BIF区块链平台上BID协议的智能合约实现。借助BIdContract合约，用户可以管理自己的公钥列表、修改自己的个人资料、设置昵称等操作。
