@@ -127,7 +127,7 @@ Parameters:
 ​          BID supports authorization control, which means the user can authorize other BIDs to control the current BID, such as update the DDO document, etc. The user calls the addBid method to authorize privileges to other BIDs. Only the public key with authorizations 'all' can be added.
 
 ```
- bool addBid(string type,string bid,string authorizations)
+ bool addPublicKey(string type,string bid,string authorizations)
 ```
 
 Parameters:
@@ -143,7 +143,7 @@ Parameters:
 ​         The user deletes the privileges authorized to other BIDs by calling the deleteBid method. Only the public key with authorizations 'all' can be deleted. The account authorized as all cannot be deleted by itself.
 
 ```
- bool deleteBid(string bid)
+ bool deletePublicKey(string bid)
 ```
 
 Parameters:
