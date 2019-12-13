@@ -65,17 +65,17 @@ sample:
   "@context": "https://w3id.org/future-method/v1",
   "id": "did:bid:DaogpsaKqKMe4nzPy4Aq",
   "name":"shiweijun",
-  "publicKey": [{
+  "publicKeys": [{
     "id": "did:bid:DaogpsaKqKMe4nzPy4Aq#keys-1",
     "type": "RsaVerificationKey2018",
     "controller": "did:bid:DaogpsaKqKMe4nzPy4Aq",
     "authorizations": ["all"]，
-    "bid": " did:bid:DaogpsaKqKMe4nzPy4Aw"
+    "publicKey": " did:bid:DaogpsaKqKMe4nzPy4Aw"
   }, {
     "id": "did:bid:DaogpsaKqKMe4nzPy4Aq#keys-3",
     "type": "Ieee2410VerificationKey2018",
     "controller": "did:bid:DaogpsaKqKMe4nzPy4Aq",
-    "bid": " did:bid:DaogpsaKqKMe4nzPy4An"
+    "publicKey": " did:bid:DaogpsaKqKMe4nzPy4An"
   }],
   "authentication": [{
     "type": "ED25519SigningAuthentication",
