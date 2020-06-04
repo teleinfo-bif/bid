@@ -54,7 +54,7 @@ subnamespace = ALPHA *(ALPHA / DIGIT / "_" / "-")
 
 The detailed BID identifier generation procedure is indicated in following diagram.
 
-<img src="/image/generateBid.png" alt="image-20200602134332157" style="zoom:80%;" />
+<img src="image/generateBid.png" alt="image-20200602134332157" style="zoom:80%;" />
 
 ###  5. BID Identity Description Object
 
