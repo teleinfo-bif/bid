@@ -54,7 +54,7 @@ subnamespace = ALPHA *(ALPHA / DIGIT / "_" / "-")
 
 The detailed BID identifier generation procedure is indicated in following diagram.
 
-![image-20200602134332157](C:\Users\lihuiling\AppData\Roaming\Typora\typora-user-images\image-20200602134332157.png)
+<img src="/image/generateBid.png" alt="image-20200602134332157" style="zoom:80%;" />
 
 ###  5. BID Identity Description Object
 
