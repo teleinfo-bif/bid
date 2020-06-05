@@ -14,7 +14,7 @@ BID is built on decentralized identification protocols and equipped with charact
 
 ## Status of This Document
 
-This document is now version 2.0.0 for BID specification and will be further updated. You can get access to the latest version by visiting  [https://github.com/teleinfo-bif/bid/blob/master/doc/en/BIF%20DID%20protocol%20Specification.md](https://github.com/teleinfo-bif/bid/blob/master/doc/en/BIF DID protocol Specification.md).
+This document is now version 2.0.0 for BID specification and will be further updated. You can get access to the latest version by visiting  [https://github.com/teleinfo-bif/bid/blob/master/doc/en/](https://github.com/teleinfo-bif/bid/blob/master/doc/en/).
 
 ## <u>Blockchain-Based</u> Identifier (BID)
 
