@@ -32,7 +32,7 @@ A BID identifier is a simple text string consisting  of three parts:
 
 - DID method-specific identifier
 
-Example：did:bid:DaogpsaKqKMe4nzPy4Aq28F3
+Example：did:bid:3acdafe161ef702033bdf895
 
 ### 3. BID Name Space
 
@@ -54,7 +54,7 @@ subnamespace = ALPHA *(ALPHA / DIGIT / "_" / "-")
 
 The detailed BID identifier generation procedure is indicated in following diagram.
 
-<img src="image/generateBid.png" alt="image-20200602134332157" style="zoom:80%;" />
+<img src="image/generateBid.png" alt="image-generateBid" style="zoom:80%;" />
 
 ###  5. BID Identity Description Object
 
