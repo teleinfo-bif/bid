@@ -365,5 +365,5 @@ C-L signature algorithm can be applied to the scenario of group or aggregate sig
 
 ## Reference
 
-
+BIF : http://bidspace.cn/
 resolver: https://bid-document.readthedocs.io/zh_CN/latest/introduce/resolver/
