@@ -54,7 +54,7 @@ subnamespace = ALPHA *(ALPHA / DIGIT / "_" / "-")
 
 The detailed BID identifier generation procedure is indicated in following diagram.
 
-<img src="/image/generateBid.png" alt="image-20200602134332157" style="zoom:80%;" />
+<img src="image/generateBid.png" alt="image-20200602134332157" style="zoom:80%;" />
 
 ###  5. BID Identity Description Object
 
@@ -306,7 +306,7 @@ bool disable()
 
 In this section, the complete identity verification procedure is elaborated.
 
-![image-20200602164759287](image\11.png)
+![image-20200602164759287](image/11.png)
 
 As indicated in the diagram above, the complete procedure is:
 
@@ -351,11 +351,11 @@ Signature is a process of encryption of the hash of message with private key. Wh
 
 The signature scheme procedure is depicted in the diagram below. 
 
-![签名](image\sign.png)
+![签名](image/sign.png)
 
 **Verify the signature**
 
-![验签](image\verysign.png)
+![验签](image/verysign.png)
 
 From the receiver's point of view,  after the signature and message is received, the receiver will derive public key of the sender with received signature and message. Then the receiver will calculate one r value through public key, signature and message. During the verification, the receiver will compare the calculated r with the r sent by sender. If they are identical, the verification is done.
 
