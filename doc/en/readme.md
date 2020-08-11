@@ -1,6 +1,6 @@
 # **BIF DID protocol Specification** 
 
-Version 2.0.0
+Version 1.0.1
 
 ## About
 
