@@ -1,6 +1,6 @@
 # **BIF DID protocol Specification** 
 
-Version 1.0.1
+Version 1.0.2
 
 ## About
 
@@ -367,4 +367,6 @@ C-L signature algorithm can be applied to the scenario of group or aggregate sig
 
 BIF : http://bidspace.cn/
 
-resolver: https://bid-document.readthedocs.io/zh_CN/latest/introduce/resolver/
+resolver-document: https://bid-document.readthedocs.io/zh_CN/latest/introduce/resolver/
+resolver: https://dev.uniresolver.io/
+resolver-validator: http://bid.dev.uniresolver.io/1.0/identifiers/did:bid:6cc796b8d6e2fbebc9b3cf9e
